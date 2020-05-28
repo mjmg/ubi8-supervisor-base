@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/ubi8/ubi:latest
 
 #Install EPEL
 RUN \
-  dnf install -y epel-release
+  dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
   
 # Update System Image
 RUN \
